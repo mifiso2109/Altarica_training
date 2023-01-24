@@ -1,0 +1,16 @@
+﻿<Window x:Class="Обучение_алтраника.Choose2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Обучение_алтраника"
+        mc:Ignorable="d"
+        Title="Choose2" Height="450" Width="800">
+    <Grid>
+        <RadioButton x:Name="Ion" Content="Литургия Иоанна Златоуста " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="249,102,0,0" Height="32" Width="197" FontSize="14"/>
+        <RadioButton x:Name="Vasiliy" Content="Литургия Василия Великого" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="248,161,0,0" Height="32" Width="197" FontSize="14"/>
+        <RadioButton x:Name="Dvoe" Content="Литургия Григория Двоеслова " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="249,219,0,0" Height="32" Width="262" FontSize="14"/>
+        <Button Content="Выбрать" HorizontalAlignment="Left" Margin="274,288,0,0" VerticalAlignment="Top" Width="162" Height="36" Click="Button_Click" FontSize="14"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+﻿<Window x:Class="Обучение_алтраника.Guid"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Обучение_алтраника"
+        mc:Ignorable="d"
+        Title="Guid" Height="450" Width="800">
+    <Grid>
+        <Button Content="Следующее" HorizontalAlignment="Left" Margin="600,306,0,0" VerticalAlignment="Top" Width="137" Height="54" Click="Button_Click_1" FontSize="18"/>
+        <Button Content="Предыдущее" HorizontalAlignment="Left" Margin="62,306,0,0" VerticalAlignment="Top" Width="137" Height="54" FontSize="18" Click="Button_Click"/>
+        <TextBox x:Name="te" HorizontalAlignment="Left" Height="302" Margin="0,2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="791" Text="Добро ожаловать юнный алтарник, начнем гайд на тему &quot;Литургия Иоанна Златоуста&quot;" FontSize="16"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="224,335,0,0" VerticalAlignment="Top" Width="137" Height="54" FontSize="18" Click="Button_Click_2"/>
+        <Button x:Name="hi" Content="Пройти тест" HorizontalAlignment="Left" Margin="420,335,0,0" VerticalAlignment="Top" Width="137" Height="54" FontSize="18" Click="hi_Click"/>
+
+    </Grid>
+</Window>

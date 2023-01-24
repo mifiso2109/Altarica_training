@@ -1,0 +1,18 @@
+﻿<Window x:Class="Обучение_алтраника.Authorizations"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Обучение_алтраника"
+        mc:Ignorable="d"
+        Title="Authorizations" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="log" HorizontalAlignment="Left" Height="48" Margin="134,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" FontSize="16"/>
+        <TextBox x:Name="pas" HorizontalAlignment="Left" Height="48" Margin="396,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" FontSize="16"/>
+        <Button x:Name="auto" Content="Авторизация" HorizontalAlignment="Left" Margin="277,222,0,0" VerticalAlignment="Top" Width="157" Height="54" FontSize="16" Click="auto_Click"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Height="32" Margin="194,98,0,0" VerticalAlignment="Top" Width="58" FontSize="16" RenderTransformOrigin="0.517,0.5"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Height="32" Margin="449,101,0,0" VerticalAlignment="Top" Width="67" FontSize="16" RenderTransformOrigin="0.517,0.5"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="277,314,0,0" VerticalAlignment="Top" Width="157" Height="54" FontSize="16" Click="Button_Click"/>
+
+    </Grid>
+</Window>
